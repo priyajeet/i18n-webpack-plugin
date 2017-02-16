@@ -83,7 +83,7 @@ I18nPlugin.prototype.apply = function(compiler) {
 				this.state.current.addDependency(dep);
 				return true;
 			});
-		}
+		});
 	});
 };
 
